@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Downloads Hub</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📦</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef1f6;--card:#fff;--ink:#1b1f3b;--mute:#5d6385;--line:#d6dbe8;--acc:#ff5d8f;--acc2:#2ec4b6}
+@media (prefers-color-scheme:dark){:root{--bg:#12142a;--card:#1b1f3b;--ink:#eef1f6;--mute:#9aa0c3;--line:#2c3157}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:'Sora',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:inherit}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+nav b{font-weight:800;font-size:1.1rem}
+nav a{text-decoration:none;margin-left:18px;color:var(--mute);font-size:.9rem}
+nav a:hover{color:var(--acc)}
+.hero{padding:70px 0 40px}
+h1{font-size:clamp(2.4rem,7vw,4.6rem);line-height:1.05;margin:0 0 16px;font-weight:800;letter-spacing:-.03em}
+h1 span{color:var(--acc)}
+.hero p{color:var(--mute);max-width:520px;margin:0 0 24px}
+.btn{display:inline-block;background:var(--acc);color:#fff;padding:11px 22px;border-radius:10px;text-decoration:none;font-weight:600;border:0;cursor:pointer;font:inherit;font-weight:600}
+.btn:hover{filter:brightness(1.08)}
+.btn.alt{background:transparent;color:var(--ink);border:1px solid var(--line);margin-left:8px}
+h2{font-size:1.7rem;margin:60px 0 18px;letter-spacing:-.02em}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px}
+.tools input,.tools select{font:inherit;padding:10px 14px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.tools input{flex:1;min-width:180px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;flex-direction:column}
+.card h3{margin:0 0 4px;font-size:1.1rem}
+.tag{font-size:.75rem;color:var(--acc2);font-weight:600;margin-bottom:8px}
+.card p{color:var(--mute);font-size:.9rem;margin:0 0 16px;flex:1}
+.row{display:flex;justify-content:space-between;align-items:center;font-size:.8rem;color:var(--mute)}
+.card .btn{padding:8px 16px;font-size:.85rem}
+.empty{color:var(--mute);padding:30px 0}
+ol{padding-left:20px}
+ol li{margin-bottom:10px}
+code{background:var(--card);border:1px solid var(--line);padding:2px 7px;border-radius:6px;font-size:.85rem}
+deta
